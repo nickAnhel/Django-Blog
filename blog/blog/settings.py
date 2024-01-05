@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 
-from data import GOOGLE_EMAIL, GOOGLE_PASSWORD
+from google import GOOGLE_EMAIL, GOOGLE_PASSWORD
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

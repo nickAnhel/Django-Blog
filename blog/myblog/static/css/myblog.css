@@ -71,6 +71,7 @@ input[type=submit] {
     font-size:14px;
     text-transform:uppercase;
 }
+
 .errorlist {
     color:#cc0033;
     float:left;

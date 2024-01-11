@@ -30,7 +30,7 @@
         <p class="date">
             Published {{ post.publish }} by {{ post.author.first_name }} {{ post.author.last_name }}
         </p>
-        {{ post.body|markdown|truncatewords_html:30 }}
+        {{ post.body|truncatewords:30 }}
     {% endfor %}
     {% include "../pagination.html" with page=posts %}
 {% endblock %}

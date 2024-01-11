@@ -1,5 +1,6 @@
-google.py
+confidential_data.py
 .vscode
 .pylintrc
 *.sqlite3
 .venv
+site_data.json
